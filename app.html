@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api Servis</title>
+    <link rel="icon"
+        href="https://media.discordapp.net/attachments/1184968794301534299/1188530633857835069/j.png?ex=659adc68&is=65886768&hm=08b9264d4e1a2fc5835de48f392df6038b3d866639c3185bc2180956f9abf262&=&format=webp&quality=lossless&width=701&height=701">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #282c35;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #394046;
+            text-align: center;
+        }
+
+        span {
+            font-size: 1.5rem;
+            color: #dabebe;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #fff;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 15px;
+            font-size: 1rem;
+            background-color: #233038;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <!-- 1-) Api -->
+        <div class="card">
+            <span>Api</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit obcaecati est sapiente corporis
+                facere aliquam, sequi quos animi expedita?</p>
+            <button onclick="api()">+</button>
+        </div>
+        <!-- 2-) Api -->
+        <div class="card">
+            <span>Api</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit obcaecati est sapiente corporis
+                facere aliquam, sequi quos animi expedita?</p>
+            <button onclick="api()">+</button>
+        </div>
+        <!-- 3-) Api -->
+        <div class="card">
+            <span>Api</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit obcaecati est sapiente corporis
+                facere aliquam, sequi quos animi expedita?</p>
+            <button onclick="api()">+</button>
+        </div>
+    </div>
+    <script>
+        function api() {
+            window.location.href = "/"
+        };
+    </script>
+</body>
+
+</html>
